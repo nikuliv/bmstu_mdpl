@@ -1,11 +1,9 @@
 SEG1 SEGMENT para 'DATA'
-    DB 100
-    DB 0
-    DB 101 DUP(0)
+    DB 100 DUP(?)
 SEG1 ENDS
 
 SEG2 SEGMENT para 'DATA'
-    DB 2 DUP(0)
+    DB 2 DUP(?)
 SEG2 ENDS
 
 CODESEG SEGMENT para 'CODE'
